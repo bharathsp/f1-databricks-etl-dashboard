@@ -116,8 +116,14 @@ Workload - All purpose, job, sql, photon
 Tier - Premium, standard
 VM type - general purpose, gpu, optimized
 Purchase Plan - Pay as you go, Pre Purchase
+Set budget alerts in the subscription
 
 ## Cost control
+ADLS - Negligible cost
+ADF - Billed only for execution of pipelines
+ADB job cluster - Automatically destroys once the job completes
+ADB cluster pool - Delete the cluster pool at the end of the lesson
+ADB all purpose cluster - Set auto termination to 20 min
 
 ## Cluster Pools
 
